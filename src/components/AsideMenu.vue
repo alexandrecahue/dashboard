@@ -11,7 +11,7 @@
         <b-icon icon="menu" />
       </a>
       <div class="aside-tools-label">
-        <span><b>Admin</b> One</span>
+        <span><b>Domus Communis</b> 0.1</span>
       </div>
     </div>
     <div class="menu is-menu-main">
@@ -35,9 +35,9 @@
 </template>
 
 <script>
+import AsideMenuList from '@/components/AsideMenuList.vue'
 import { defineComponent } from 'vue'
 import { mapState } from 'vuex'
-import AsideMenuList from '@/components/AsideMenuList.vue'
 
 export default defineComponent({
   name: 'AsideMenu',

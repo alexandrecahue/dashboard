@@ -10,10 +10,21 @@ export default [
   'Examples',
   [
     {
-      to: '/tables',
-      label: 'Tables',
+
+      label: 'Tabelas',
       icon: 'table',
-      updateMark: true
+      updateMark: true,
+      menu: [
+        {
+          to: '/tables',
+          href: '#void',
+          label: 'Bancos'
+        },
+        {
+          href: '#void',
+          label: 'Sub-item Two'
+        }
+      ]
     },
     {
       to: '/forms',

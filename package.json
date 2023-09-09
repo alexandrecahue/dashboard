@@ -1,9 +1,9 @@
 {
-  "name": "admin-one-vue-bulma-dashboard",
-  "version": "2.4.0",
+  "name": "acs-sistemas-domus-communis",
+  "version": "0.1",
   "scripts": {
     "dev": "vite --host",
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --port 5000",
     "serve:vite": "vite serve",
     "build": "vue-cli-service build --modern",
     "build:vite": "vite build",
